@@ -1,0 +1,9 @@
+#the code is regarding how manyyears, months and days you have till you are 90
+
+age = input("What is your current age?")
+years = 90 - int(age)
+months = round(years * 12)
+weeks = round(years * 52)
+days = round(years * 365)
+
+print(f"your have {years} years,  {months} months , {days} days ")
